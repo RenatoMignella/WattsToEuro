@@ -7,3 +7,7 @@ document.querySelector('#nightconsumpition').style.display = 'none';
 document.querySelector('#loading').style.display = 'none';
 // keep focus on Input (love math ref)
 document.querySelector('.form-control').focus();
+
+
+//  Listen for submit
+let inp = document.querySelector('.form-control');
