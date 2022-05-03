@@ -48,7 +48,13 @@ function calculateWats() {
 
      let nightResult = (((principal / 1000) * 0.2112)  +0.32);
 
-    let  resulrDivn = nightResult  * 0.135;
+     let  resulrDivn = nightResult  * 0.135;
      let finalResultN =  nightResult + resulrDivn;
+
+
+     //  Show calculated results
+     document.querySelector('#dayconsumpition').innerHTML = `1 hour Consumption at day € ${finalResult.toFixed(2)}`;
+     document.querySelector('#nightconsumpition').innerHTML = `1 hour Consumption at night € ${finalResultN.toFixed(2)}`;
+
 
 }
