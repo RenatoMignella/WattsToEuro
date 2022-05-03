@@ -65,5 +65,8 @@ function calculateWats() {
     document.querySelector('#dayconsumpition').style.display = "block";
     document.querySelector('#nightconsumpition').style.display = "block";
 
+    //hide input
+    document.querySelector('.form-control').value= 'none';
+
 
 }
