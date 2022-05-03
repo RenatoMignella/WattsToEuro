@@ -30,3 +30,11 @@ document.querySelector('#calculate-form').addEventListener('submit',function(e){
    
     
 });
+
+
+
+// Calculating wats
+
+function calculateWats() {
+
+}
