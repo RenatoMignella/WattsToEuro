@@ -41,7 +41,7 @@ function calculateWats() {
     const amount = document.querySelector ('#amount');
     const principal = parseFloat(amount.value);
 
-
+   // Eletric Ireland logic calculation
     let resultDay = (((principal / 1000) * 0.2112) +0.42);
      let resulrDiv = resultDay  * 0.135;
      let finalResult =  resultDay + resulrDiv;
