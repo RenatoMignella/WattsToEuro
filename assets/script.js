@@ -57,4 +57,8 @@ function calculateWats() {
      document.querySelector('#nightconsumpition').innerHTML = `1 hour Consumption at night € ${finalResultN.toFixed(2)}`;
 
 
+      //disable loading
+      document.querySelector('#loading').style.display = 'none';
+
+
 }
